@@ -14,6 +14,15 @@ This Project also setup some basics for i18n, but it's all self written by me. Y
 bash <(curl -sL https://raw.githubusercontent.com/saniyar-dev/scripts/main/setup_telegrambot.sh)
 ```
 
+### **You can use docker compose to have development environment with this command**
+
+**important:**
+**First add your bot token in docker.compose.dev.yml file**
+
+```
+sudo docker compose -f docker.compose.dev.yml up --build
+```
+
 #### **Author: Saniyar Karami**
 
 #### **Contact: [email](saniyar.dev@gmail.com), [Telegram](https://t.me/saniyar_dev)**
